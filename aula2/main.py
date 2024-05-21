@@ -1,0 +1,15 @@
+from classes.Conta import*
+
+conta1 = Conta("José Rafael",12345,"corrente")
+conta1.ativar()
+conta1.desativar()
+conta1.sacar(10)
+conta1.depositar(10)
+conta1.verificarsaldo()
+conta1.ativar()
+conta1.sacar(10)
+conta1.depositar(10)
+conta1.sacar(10)
+conta1.depositar(125)
+conta1.depositar(10)
+conta1.verificarsaldo()
